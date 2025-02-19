@@ -1,0 +1,26 @@
+{
+  "name": "horrorMovieBlog",
+  "version": "1.0.0",
+  "description": "Interactive Blog Website  ",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "deploy": "gh-pages -d _site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ceq5032.github.io/horrorMovieReviews/"
+  },
+  "author": "Chelsea Quijas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://ceq5032.github.io/horrorMovieReviews/issues"
+  },
+  "homepage": "https://ceq5032.github.io/horrorMovieReviews#readme",
+  "keywords": [],
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
+
