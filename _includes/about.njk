@@ -1,0 +1,34 @@
+
+<!doctype html>
+<html lang="en-US">
+
+  <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>{{ title }}</title>
+      <link rel="stylesheet" href="css/stylecss.css">
+      <link rel="shortcut icon" type="image/x-icon" href="./images/film_reel.png">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+      <script src="script.js"></script>
+      <style>
+
+      </style>
+
+
+  </head>
+    <body>
+
+    {% include "layouts/outer-top.html" %}
+
+   {% include "layouts/menu.html" %}
+
+
+
+        {{ content | safe }}
+
+        {% include "layouts/footer.html" %}
+
+
+    </div>
+    </body>
+</html>
