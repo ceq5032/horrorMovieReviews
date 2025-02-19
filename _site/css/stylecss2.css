@@ -1,0 +1,101 @@
+html {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: left;
+
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+
+    background-image: url('_src/images/background.jpeg');
+    background-size: cover;
+    background-position: center center;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #121212;
+}
+
+h1, h2 {
+    color: #f1f1f1;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 30px;
+    color: #5c0606;
+}
+
+
+#about-me {
+    padding: 60px 20px;
+    background-color: #222;
+}
+
+#about-me .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#about-me .about-text {
+    flex: 2;
+    padding-right: 30px;
+    font-size: 1.2rem;
+}
+
+#about-me .about-image {
+    flex: 1;
+}
+
+#about-me .about-image img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#about-me ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+#about-me ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+
+@media (max-width: 768px) {
+    #about-me .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #about-me .about-text {
+        padding-right: 0;
+    }
+
+    #about-me .about-image {
+        margin-top: 30px;
+    }
+    .cta-button {
+        font-size: 1rem;
+    }
+}
