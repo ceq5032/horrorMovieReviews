@@ -7,7 +7,7 @@ html {
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
 
-    background-image: url('_src/images/background.jpeg');
+    background-image: url('../images/background.jpeg');
     background-size: cover;
     background-position: center center;
     font-synthesis: none;
@@ -188,7 +188,7 @@ button:hover {
 .social-media ul {
     padding: 0;
     margin: 0;
-    display: flex;
+    display: inline-flex;
     align-items: center;
 }
 
@@ -197,7 +197,7 @@ button:hover {
 }
 
 footer img {
-    display: block;
+    display: inline-flex;
     width: 30px;
     height: auto;
     z-index: 10;

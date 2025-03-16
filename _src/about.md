@@ -1,9 +1,12 @@
 ---
 title: About
-layout: about.njk
+layout: layouts/about.html
 ---
 
- 
+
+
+
+
              
 
                 <p>Hello! I'm Chelsea, and I'm absolutely passionate about horror films. From the classics to the latest releases, I love diving deep into the stories, the scares, and everything in between. This site is a place where I share my reviews of the films that have either thrilled or terrified me — and sometimes both!</p>
