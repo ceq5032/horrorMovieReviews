@@ -3,8 +3,10 @@ title: Home
 layout: base.njk
 ---
 
-  <h1>Welcome to My Horror Film Reviews</h1>
+  <h1> Welcome to My Horror Film Reviews </h1>
 
+<main> 
+<div class="main-content-wrapper"> 
       <p>Your ultimate source for horror film reviews, from the classics to the latest spine-chilling releases.</p>
 
 
@@ -17,15 +19,17 @@ layout: base.njk
                     <li>A timeline of iconic horror movies</li>
                     <li>Recommendations for must-see films</li>
                 </ul>
-       <button href="moviereviews.html" type="button"> Browse Reviews </button>
-      </section>
+   <button type="button" onclick="location.href='moviereviews.html'">Browse Reviews</button>
+
 
 <section class="latest">
         <h2>Latest Reviews</h2>
         <p>Check out the latest reviews and see what I'm saying about the most recent horror films!</p>
-        <button href="latestinfo.html" type="button"> See Latest </button>
-      </section>
-
+       <button type="button" onclick="location.href='latestinfo.html'"> Latest Info </button>
+ </section>
+</section>
+</div>
+</main>
 
 
 <p> This website is currently under construction. </p>
