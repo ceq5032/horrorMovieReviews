@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://ceq5032.github.io/horrorMovieReviews/"
+    "url": "https://ceq5032.github.io/horrorMovieReviews/"
   },
   "author": "Chelsea Quijas",
   "license": "ISC",
@@ -21,6 +21,8 @@
   "keywords": [],
   "dependencies": {
     "@11ty/eleventy": "^3.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
-
