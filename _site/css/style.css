@@ -164,7 +164,7 @@ button {
     justify-content: center;
     align-items: center;
     z-index: 5;
-    padding: 10px;
+
 }
 
 footer .content {
@@ -181,13 +181,13 @@ footer .social-media {
     align-items: center;
 }
 
-footer .social-media ul {
+ul.social-media  {
     list-style: none;
-    display: inline-flex;
-    padding: 0;
-    margin: 0;
-    gap: 10px;
+    display: flex;
+    justify-content: space-between;
 }
+
+ul.social-media li {display:inline; padding-left:.5rem; padding-right:.5rem; }
 
 footer .social-media img {
     width: 30px;
