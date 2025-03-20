@@ -5,7 +5,8 @@ module.exports = function (eleventyConfig){
     return{
         dir: {
             input:"_src",
-            output: "_site"
+            output: "_site",
+            pathPrefix: "/horrorMovieReviews/"
         },
     };
 };
