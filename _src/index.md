@@ -1,6 +1,7 @@
 ---
 title: Home 
 layout: base.njk
+permalink: index.html
 ---
 
   <h1> Welcome to My Horror Film Reviews </h1>

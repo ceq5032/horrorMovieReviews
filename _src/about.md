@@ -1,6 +1,7 @@
 ---
 title: About
 layout: layouts/about.html
+permalink: about.html
 ---
 
 

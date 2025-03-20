@@ -8,6 +8,7 @@
     "build": "eleventy",
     "deploy": "gh-pages -d _site"
   },
+  "homepage": "/horrorMovieReviews",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0"
   },
