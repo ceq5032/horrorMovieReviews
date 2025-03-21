@@ -121,7 +121,7 @@ ul.htop li {
 
 ul.htop li a {
     display: inline-block;
-    color: #f2f2f2;
+    color: #5c0606;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -138,7 +138,7 @@ ul.htop li a:hover {
 ul.htop li.active a {
     background-color: #5c0606;
     color: #fff;
-    border-bottom: 2px solid white;
+    border-bottom: 2px black solid;
 }
 
 button {
