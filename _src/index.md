@@ -4,11 +4,34 @@ layout: base.njk
 permalink: index.html
 ---
 
-  <h1> Welcome to My Horror Film Reviews </h1>
+ 
 
 <main> 
 <div class="main-content-wrapper"> 
+
+<script>
+  window.onload = function() {
+    // Check if user has already accepted the warning
+    if (!localStorage.getItem("horrorWarningAccepted")) {
+      alert("⚠ WARNING: This website contains horror content, including disturbing images, eerie sounds, and unsettling themes. Viewer discretion is advised.");
+      localStorage.setItem("horrorWarningAccepted", "true");
+    }
+  };
+</script>
+
+
+
+
+
+ <h1> Welcome to My Horror Film Reviews </h1>
+
+<p> This website is currently under construction. </p>
+
       <p>Your ultimate source for horror film reviews, from the classics to the latest spine-chilling releases.</p>
+
+
+<img src="clip1.jpg" alt="movie reel" style="width:500px; height:300px; display: block; margin-left: auto;">
+
 
 
  <section class="intro">
@@ -33,4 +56,3 @@ permalink: index.html
 </main>
 
 
-<p> This website is currently under construction. </p>

@@ -1,9 +1,45 @@
 
 <ul class="htop">
-    <li class="active"> <a href="index.html">Home</a></li>
-    <li> <a href="about.html"> About </a></li>
-    <li> <a href="Movie.html"> Movie Reviews  </a> </li>
-    <li> <a href="latest.html"> Latest Info </a> </li>
-    <li> <a href="forum.html"> Forums </a> </li>
+    <li class="active"> <a href="index.html" onclick="setActive(this)">Home</a></li>
+    <li> <a href="about.html" onclick="setActive(this)">About</a></li>
+    <li> <a href="Movie.html" onclick="setActive(this)">Movie Reviews</a></li>
+    <li> <a href="latest.html" onclick="setActive(this)">Latest Info</a></li>
+    <li> <a href="forum.html" onclick="setActive(this)">Forums</a></li>
 </ul>
 
+<script>
+    function setActive(element) {
+
+        document.querySelectorAll("ul.htop li").forEach(li => li.classList.remove("active"));
+        element.parentElement.classList.add("active");
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+        // Get the saved active page from localStorage
+        let activePage = localStorage.getItem("activePage");
+
+        // Select all links inside .htop
+        let links = document.querySelectorAll("ul.htop li a");
+
+
+        links.forEach(link => {
+            // Check if the link matches the stored active page
+            if (link.href === activePage) {
+                document.querySelectorAll("ul.htop li").forEach(li => li.classList.remove("active"));
+                link.parentElement.classList.add("active");
+            }
+
+            // Add onclick event to each link
+            link.addEventListener("click", function () {
+                document.querySelectorAll("ul.htop li").forEach(li => li.classList.remove("active"));
+                this.parentElement.classList.add("active");
+
+                // Store the clicked link's href in localStorage
+                localStorage.setItem("activePage", this.href);
+            });
+        });
+    });
+
+
+
+
+</script>
