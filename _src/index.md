@@ -7,19 +7,9 @@ permalink: index.html
  
 
 <main> 
-<div class="main-content-wrapper"> 
+<div class="main-content-wrapper">
 
-<script>
-  window.onload = function() {
-    // Check if user has already accepted the warning
-    if (!localStorage.getItem("horrorWarningAccepted")) {
-      alert("⚠ WARNING: This website contains horror content, including disturbing images, eerie sounds, and unsettling themes. Viewer discretion is advised.");
-      localStorage.setItem("horrorWarningAccepted", "true");
-    }
-  };
-</script>
-
-
+<script src="script.js" defer></script>
 
 
 
@@ -30,7 +20,7 @@ permalink: index.html
       <p>Your ultimate source for horror film reviews, from the classics to the latest spine-chilling releases.</p>
 
 
-<img src="images/clip1.jpg" alt="movie reel" style="width:500px; height:300px; display: block; margin-left: auto;">
+<img src="images/clip1.jpg" alt="movie reel" style="width:500px; height:300px; display: block; margin-left: auto; border-radius: 15px">
 
 
 
