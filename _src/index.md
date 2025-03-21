@@ -4,12 +4,12 @@ layout: base.njk
 permalink: index.html
 ---
 
- 
+ <script src="script.js" defer></script>
 
 <main> 
 <div class="main-content-wrapper">
 
-<script src="script.js" defer></script>
+
 
 
 
