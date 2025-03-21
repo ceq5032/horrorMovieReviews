@@ -13,18 +13,18 @@ permalink: about.html
                 <p>Hello! I'm Chelsea, and I'm absolutely passionate about horror films. From the classics to the latest releases, I love diving deep into the stories, the scares, and everything in between. This site is a place where I share my reviews of the films that have either thrilled or terrified me — and sometimes both!</p>
 
 
-<img src="clip3.jpg" alt="movie reel" style="width:500px; height:300px; display: block; margin-left: auto;">
+<img src="images/clip3.jpg" alt="movie reel" style="width:500px; height:300px; display: block; margin-left: auto;">
 
 
                 <p>I've been a fan of horror since I was a kid, and over the years, I've developed a deep appreciation for the genre in all its forms. Whether it's psychological thrillers, supernatural horror, or slasher films, I enjoy exploring how these movies shape our emotions and thoughts.</p>
 
-<img src="horror_image1.jpg" alt="movie reel" style="width:500px; height:300px; display: block; margin-right: auto;">
+<img src="images/horror_image1.jpg" alt="movie reel" style="width:500px; height:300px; display: block; margin-right: auto;">
 
 
                 <p>This site is not just about me; I want it to be a place where other horror enthusiasts can come together to share their opinions, discuss their favorite films, and even debate the scariest moments. I aim to create a community where we can all bond over our love of fear!</p>
 
 
-<img src="clip2.jpg" alt="movie reel" style="width:500px; height:300px; display: block; margin-left: auto;">
+<img src="images/clip2.jpg" alt="movie reel" style="width:500px; height:300px; display: block; margin-left: auto;">
 
 
 
