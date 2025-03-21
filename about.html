@@ -20,7 +20,7 @@
 
     <div class="header-text">
         <h1> Chelsea's Horror Blog </h1>
-        <p> Popcorn and Panic!  Hello </p>
+        <p> Popcorn and Panic! </p>
     </div>
 
     <img src="images/horror_image2.jpg" id="header" alt="Header Picture"/>
@@ -39,13 +39,49 @@
 
    
 <ul class="htop">
-    <li class="active"> <a href="index.html">Home</a></li>
-    <li> <a href="about.html"> About </a></li>
-    <li> <a href="Movie.html"> Movie Reviews  </a> </li>
-    <li> <a href="latest.html"> Latest Info </a> </li>
-    <li> <a href="forum.html"> Forums </a> </li>
+    <li class="active"> <a href="index.html" onclick="setActive(this)">Home</a></li>
+    <li> <a href="about.html" onclick="setActive(this)">About</a></li>
+    <li> <a href="Movie.html" onclick="setActive(this)">Movie Reviews</a></li>
+    <li> <a href="latest.html" onclick="setActive(this)">Latest Info</a></li>
+    <li> <a href="forum.html" onclick="setActive(this)">Forums</a></li>
 </ul>
 
+<script>
+    function setActive(element) {
+
+        document.querySelectorAll("ul.htop li").forEach(li => li.classList.remove("active"));
+        element.parentElement.classList.add("active");
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+        // Get the saved active page from localStorage
+        let activePage = localStorage.getItem("activePage");
+
+        // Select all links inside .htop
+        let links = document.querySelectorAll("ul.htop li a");
+
+
+        links.forEach(link => {
+            // Check if the link matches the stored active page
+            if (link.href === activePage) {
+                document.querySelectorAll("ul.htop li").forEach(li => li.classList.remove("active"));
+                link.parentElement.classList.add("active");
+            }
+
+            // Add onclick event to each link
+            link.addEventListener("click", function () {
+                document.querySelectorAll("ul.htop li").forEach(li => li.classList.remove("active"));
+                this.parentElement.classList.add("active");
+
+                // Store the clicked link's href in localStorage
+                localStorage.setItem("activePage", this.href);
+            });
+        });
+    });
+
+
+
+
+</script>
 
 
 
@@ -60,10 +96,15 @@
 
 
 
+<div class="main-content-wrapper"> 
 <p><p>Hello! I'm Chelsea, and I'm absolutely passionate about horror films. From the classics to the latest releases, I love diving deep into the stories, the scares, and everything in between. This site is a place where I share my reviews of the films that have either thrilled or terrified me — and sometimes both!</p></p>
+<img src="clip3.jpg" alt="movie reel" style="width:500px; height:300px; display: block; margin-left: auto;">
 <p><p>I've been a fan of horror since I was a kid, and over the years, I've developed a deep appreciation for the genre in all its forms. Whether it's psychological thrillers, supernatural horror, or slasher films, I enjoy exploring how these movies shape our emotions and thoughts.</p></p>
+<img src="horror_image1.jpg" alt="movie reel" style="width:500px; height:300px; display: block; margin-right: auto;">
 <p><p>This site is not just about me; I want it to be a place where other horror enthusiasts can come together to share their opinions, discuss their favorite films, and even debate the scariest moments. I aim to create a community where we can all bond over our love of fear!</p></p>
-<p><p>Thank you for visiting! I hope you enjoy exploring my thoughts on the horror films that continue to shape the genre. Stay scared!</p></p>
+<img src="clip2.jpg" alt="movie reel" style="width:500px; height:300px; display: block; margin-left: auto;">
+<p><p>Thank you for visiting! I hope you enjoy exploring my thoughts on the horror films that continue to shape the genre. Stay scared!</p>
+</dev></p>
 
 
 
@@ -101,6 +142,8 @@
                                 <img src="images/instagram.png" id="Instagram" alt="Instagram logo"/>
                             </span>
                         </a>
+                    </li>
+                    <li>
                         <a target="_blank" href="https://icons8.com/icon/62466/pennywise">Pennywise</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
                     </li>
 
