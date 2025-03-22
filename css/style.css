@@ -141,6 +141,16 @@ ul.htop li a:hover {
     color: #fff;
 }
 
+.htop {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+}
+
+.htop.active {
+    display: flex;
+}
+
 
 button {
     background-color: #5c0606;
@@ -153,9 +163,20 @@ button {
     font-size: 15px;
     border-radius: 12px;
     cursor: pointer;
-
-
 }
+
+.menu-toggle {
+    display: block;
+    background: #5c0606;
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+}
+
 
 
 .search-box {
@@ -392,13 +413,22 @@ footer .social-media img:hover {
 
     ul.htop {
         flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    ul.htop li {
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
     }
 
     ul.htop li a {
+        display: block;
         padding: 12px;
-        font-size: 1rem;
+        font-size: 1.2rem;
+        width: 100%;
     }
 }
-
 
 
