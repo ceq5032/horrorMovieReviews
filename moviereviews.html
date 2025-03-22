@@ -5,7 +5,7 @@
   <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Home</title>
+      <title>Movie Review</title>
       <link rel="stylesheet" href="css/style.css">
       <link rel="shortcut icon" type="image/x-icon" href="./images/pennywise.png">
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
@@ -41,7 +41,7 @@
 <ul class="htop">
     <li class="active"> <a href="index.html" onclick="setActive(this)">Home</a></li>
     <li> <a href="about.html" onclick="setActive(this)">About</a></li>
-    <li> <a href="movie.html" onclick="setActive(this)">Movie Reviews</a></li>
+    <li> <a href="Movie.html" onclick="setActive(this)">Movie Reviews</a></li>
     <li> <a href="latest.html" onclick="setActive(this)">Latest Info</a></li>
     <li> <a href="forum.html" onclick="setActive(this)">Forums</a></li>
 </ul>
@@ -50,33 +50,40 @@
 
 
 
-        <main> 
-<div class="main-content-wrapper">
- <h2> Welcome to My Horror Film Reviews </h2>
-<p> This website is currently under construction. </p>
-<p><p>Your ultimate source for horror film reviews, from the classics to the latest spine-chilling releases.</p></p>
-<img src="images/clip1.jpg" alt="movie reel" style="width:500px; height:300px; display: block; margin-left: auto; border-radius: 15px">
- <section class="intro">
-        <h2>What You Can Expect:</h2>
-                <ul>
-                    <li>In-depth movie reviews</li>
-                    <li>Discussions on horror tropes and storytelling</li>
-                    <li>Interactive features like a forum and user-submitted reviews</li>
-                    <li>A timeline of iconic horror movies</li>
-                    <li>Recommendations for must-see films</li>
-                </ul>
-   <button type="button" onclick="location.href='movie.html'">Browse Reviews</button>
-<section class="latest">
-        <h2>Latest Info </h2>
-        <p>
-If you're a horror fan who loves staying up to date on the latest spine-chilling news, you won't want to miss the newest horror movie rumors! From shocking reboots to unexpected sequels and terrifying original stories, the horror world is always buzzing with speculation.  
-<p>Check out the latest horror movie rumors and see what's lurking around the corner—whether it's a long-awaited franchise return, a fresh take on a classic monster, or a surprise casting that has fans talking. Stay in the know and get ready for the next big scare!</p>
- </p>
-       <button type="button" onclick="location.href='latest.html'"> Latest Info </button>
- </section>
-</section>
-</div>
-</main>
+        
+
+
+
+
+
+
+
+
+
+<script src="script.js" defer></script>
+<p><h1>Search through the list</h1>
+<input type="text" id="search" placeholder="Search for an item..."></p>
+<p><div id="list">
+<div class="list-item">Apple</div>
+<div class="list-item">Banana</div>
+<div class="list-item">Orange</div>
+<div class="list-item">Strawberry</div>
+<div class="list-item">Blueberry</div>
+<div class="list-item">Peach</div>
+<div class="list-item">Grapes</div>
+</div></p>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         <footer class="footer">

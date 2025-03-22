@@ -22,20 +22,29 @@ window.onload = function () {
     }
 };
 
-// Function to set active link
-function setActive(element) {
-    // Remove active class from all list items
-    document.querySelectorAll("ul.htop li").forEach(li => li.classList.remove("active"));
-    // Add active class to the clicked item's parent
-    element.parentElement.classList.add("active");
 
-    // Save the active page to localStorage
-    localStorage.setItem("activePage", element.href);
+// Function to search through header elements
+function searchHeaders() {
+    // Get the search input and convert to lowercase
+    const searchInput = document.getElementById('search').value.toLowerCase();
+
+    // Select all header elements (h1, h2, h3)
+    const headers = document.querySelectorAll('h1, h2, h3');
+
+    // Loop through each header element
+    headers.forEach(header => {
+        const headerText = header.textContent.toLowerCase();
+
+        // If the header contains the search input, show it; otherwise, hide it
+        if (headerText.includes(searchInput)) {
+            header.style.display = 'block'; // Show the header
+        } else {
+            header.style.display = 'none'; // Hide the header
+        }
+    });
 }
 
-window.onbeforeunload = function() {
-    localStorage.clear(); // Clear the localStorage when the page is about to be closed
-};
+
 
 
 
