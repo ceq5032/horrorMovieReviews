@@ -16,20 +16,21 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build (if needed)
+      - name: Build project
         run: npm run build
-
-
-      - name: Download the Artifact (for example purposes)
-        uses: actions/download-artifact@v3
-        with:
-          name: deploy-files
 
       - name: Deploy to FTP
         run: |
-          lftp -c "set ftp:passive-mode 1; open $FTP_HOST; login $FTP_USERNAME $FTP_PASSWORD; cd $FTP_PATH; mirror ./deploy-files/ . ; close; quit"
+          sudo apt-get update && sudo apt-get install -y lftp
+          lftp -e "
+            set ftp:passive-mode on;
+            open $FTP_HOST;
+            user $FTP_USERNAME $FTP_PASSWORD;
+            mirror --reverse --delete --verbose ./ $FTP_PATH;
+            bye
+          "
         env:
-          FTP_HOST: ftp.infinityfree.com
+         FTP_HOST: ftp.infinityfree.com
           FTP_USERNAME: if0_38575681
           FTP_PASSWORD: Eviltwin123
           FTP_PATH: ftpupload.net
