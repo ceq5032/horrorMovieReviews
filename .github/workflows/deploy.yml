@@ -34,7 +34,7 @@ jobs:
         run: |
           lftp -c "set ftp:passive-mode 1; open $FTP_HOST; login $FTP_USERNAME $FTP_PASSWORD; cd $FTP_PATH; mirror ./deploy-files/ . ; close; quit"
         env:
-          FTP_HOST: horrormoviereview.kesug.com
+          FTP_HOST: ftp.infinityfree.com
           FTP_USERNAME: if0_38575681
           FTP_PASSWORD: Eviltwin123
           FTP_PATH: ftpupload.net
