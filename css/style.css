@@ -385,11 +385,30 @@ footer .social-media img:hover {
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
+
 @media screen and (max-width: 768px) {
-    
     ul.htop {
         flex-direction: column;
         align-items: center;
+        display: none;
+    }
+
+    ul.htop.active {
+        display: flex;
+    }
+
+
+    .menu-toggle {
+        display: block; 
+        background-color: #5c0606;
+        color: white;
+        padding: 10px;
+        font-size: 1.5rem;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+        text-align: center;
+        width: 100%;
     }
 
     ul.htop li {
@@ -401,6 +420,7 @@ footer .social-media img:hover {
         font-size: 14px;
     }
 }
+
 
 @keyframes grow {
     0% {
