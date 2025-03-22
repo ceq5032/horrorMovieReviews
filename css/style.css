@@ -120,9 +120,7 @@ ul.htop {
     width: 100%;
 }
 
-.menu-toggle{
-    display: none;
-}
+
 
 
 ul.htop.active {
@@ -396,25 +394,18 @@ footer .social-media img:hover {
 
 
 @media screen and (max-width: 768px) {
-
-    .menu-toggle {
+    .threads {
         display: flex;
-        background-color: #5c0606;
-        color: white;
-        padding: 10px;
-        font-size: 1.5rem;
-        border: none;
-        cursor: pointer;
-        margin-top: 10px;
-        text-align: center;
-        width: 100%;
-    }
+        flex-direction: column;
+        align-items: center;
 
-    .ul-htop {
-        Display: block;
     }
 
 }
+
+
+
+
 
 @keyframes grow {
     0% {
