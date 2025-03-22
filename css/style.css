@@ -386,12 +386,22 @@ footer .social-media img:hover {
 }
 
 @media screen and (max-width: 768px) {
-    section {
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
+    
+    ul.htop {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul.htop li {
+        margin: 10px 0;
+    }
+
+    ul.htop li a {
+        padding: 12px;
+        font-size: 14px;
     }
 }
+
 @keyframes grow {
     0% {
         width: 0;
