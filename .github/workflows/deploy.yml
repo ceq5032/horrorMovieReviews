@@ -19,20 +19,24 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Install LFTP
+        run: sudo apt-get update && sudo apt-get install -y lftp
+
       - name: Deploy to FTP
         run: |
-          sudo apt-get update && sudo apt-get install -y lftp
           lftp -e "
-            set ftp:passive-mode on;
-            open $FTP_HOST;
-            user $FTP_USERNAME $FTP_PASSWORD;
-            mirror --reverse --delete --verbose ./ $FTP_PATH;
-            bye
+          set ftp:passive-mode on;
+          open $FTP_HOST;
+          user $FTP_USERNAME $FTP_PASSWORD;
+          mirror --reverse --delete --verbose ./ $FTP_PATH;
+          bye
           "
         env:
-         FTP_HOST: ftp.infinityfree.com
+          FTP_HOST: ftp.infinityfree.com
           FTP_USERNAME: if0_38575681
           FTP_PASSWORD: Eviltwin123
           FTP_PATH: ftpupload.net
+
+       
 
 
