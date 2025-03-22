@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
             console.log("Menu not found");
         }
 
-       
+
         menuToggle.addEventListener("click", function () {
             console.log("Hamburger button clicked");
             menu.classList.toggle("active");

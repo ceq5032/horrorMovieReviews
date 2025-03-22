@@ -343,7 +343,7 @@ ul a:hover {
 
 
 
-.footer {
+footer {
     position: fixed;
     margin-top: auto;
     bottom: 0;
@@ -410,17 +410,11 @@ footer .social-media img:hover {
         width: 100%;
     }
 
-
-    ul.htop li {
-        margin: 10px 0;
+    .ul-htop {
+        Display: block;
     }
 
-    ul.htop li a {
-        padding: 12px;
-        font-size: 14px;
-    }
 }
-
 
 @keyframes grow {
     0% {
