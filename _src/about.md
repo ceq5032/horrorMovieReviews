@@ -4,8 +4,6 @@ layout: layouts/about.html
 permalink: about.html
 ---
 
-<script src="script.js" defer></script>
-
 <div class="main-content-wrapper"> 
 
              
