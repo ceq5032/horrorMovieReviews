@@ -14,13 +14,14 @@ document.addEventListener("DOMContentLoaded", function () {
         localStorage.setItem("spoilerWarningAccepted", "true");
     }
 
-    // Toggle navigation menu for mobile screens
-    const menuToggle = document.querySelector(".menu-toggle");
-    const menu = document.querySelector(".htop");
+    document.addEventListener("DOMContentLoaded", function () {
+        const menuToggle = document.querySelector(".menu-toggle");
+        const menu = document.querySelector(".htop");
 
-    // Toggle the menu on click
-    menuToggle.addEventListener("click", function () {
-        menu.classList.toggle("active");
+        // Ensure the button toggles the menu visibility
+        menuToggle.addEventListener("click", function () {
+            menu.classList.toggle("active");
+        });
     });
 
     // Function to search through header elements

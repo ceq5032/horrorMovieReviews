@@ -101,6 +101,7 @@ header#top p {
     height: auto;
 }
 
+
 ul.htop {
     list-style-type: none;
     margin: 0;
@@ -119,9 +120,17 @@ ul.htop {
     width: 100%;
 }
 
+.menu-toggle{
+    display: none;
+}
+
+
+ul.htop.active {
+    display: flex;
+}
 
 ul.htop li {
-    position: sticky;
+    position: relative;
     margin: 0 10px;
 }
 
@@ -387,19 +396,9 @@ footer .social-media img:hover {
 
 
 @media screen and (max-width: 768px) {
-    ul.htop {
-        flex-direction: column;
-        align-items: center;
-        display: none;
-    }
-
-    ul.htop.active {
-        display: flex;
-    }
-
 
     .menu-toggle {
-        display: block;
+        display: flex;
         background-color: #5c0606;
         color: white;
         padding: 10px;
@@ -410,6 +409,7 @@ footer .social-media img:hover {
         text-align: center;
         width: 100%;
     }
+
 
     ul.htop li {
         margin: 10px 0;
