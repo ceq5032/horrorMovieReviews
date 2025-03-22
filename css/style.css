@@ -385,18 +385,19 @@ footer .social-media img:hover {
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
-@media (max-width: 768px) {
-    .container {
-        padding: 10px;
+@media screen and (max-width: 768px) {
+    section {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
-
-    ul.htop {
-        flex-direction: column;
+}
+@keyframes grow {
+    0% {
+        width: 0;
     }
-
-    ul.htop li a {
-        padding: 12px;
-        font-size: 1rem;
+    100% {
+        width: 50%;
     }
 }
 
