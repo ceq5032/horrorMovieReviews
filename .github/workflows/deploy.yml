@@ -19,11 +19,6 @@ jobs:
       - name: Build (if needed)
         run: npm run build
 
-      - name: Upload to FTP
-        uses: actions/upload-artifact@v3
-        with:
-          name: deploy-files
-          path: .
 
       - name: Download the Artifact (for example purposes)
         uses: actions/download-artifact@v3
