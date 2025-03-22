@@ -23,9 +23,10 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y lftp
 
       - name: Deploy to FTP
-        run: |
+          run: |
           lftp -e "
           set ftp:passive-mode on;
+          set ssl:verify-certificate no;
           open $FTP_HOST;
           user $FTP_USERNAME $FTP_PASSWORD;
           mirror --reverse --delete --verbose ./ $FTP_PATH;
