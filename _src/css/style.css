@@ -43,10 +43,10 @@ main {
 
 
 .main-content-wrapper {
-        margin: auto;
-        width: 60%;
-        padding: 10px;
-    }
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
 
 header#top {
     position: sticky;
@@ -399,6 +399,8 @@ footer .social-media img:hover {
         font-size: 1rem;
     }
 }
+
+
 
 
 
