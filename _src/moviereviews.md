@@ -57,7 +57,7 @@ Perkins crafts an atmosphere thick with dread, employing a slow-burn narrative t
 Nicolas Cage delivers a performance that is both terrifying and mesmerizing, embodying the titular character with a sinister charisma. Maika Monroe's portrayal of Agent Harker adds depth to the narrative, capturing the internal conflict of a character torn between duty and personal demons.
 
 While the film has been lauded for its mood and performances, some critics note that it doesn't quite reach the heights of classics like The Silence of the Lambs. Nonetheless, Longlegs stands out as a profoundly unsettling entry in the horror genre, offering a richly textured experience that will crawl and linger in your mind for days. 
-The Nerds of Color
+
 
 Final Verdict: Longlegs is a disturbing and atmospheric horror film that showcases standout performances, particularly from Cage and Monroe. Its blend of psychological and supernatural elements, coupled with a brooding aesthetic, makes it a memorable watch for horror enthusiasts.
 

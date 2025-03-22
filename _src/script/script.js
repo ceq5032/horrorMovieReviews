@@ -1,6 +1,5 @@
 
 document.addEventListener("DOMContentLoaded", function () {
-
     const currentPage = window.location.pathname.split("/").pop();
 
     // Show horror warning on specific pages
@@ -12,11 +11,13 @@ document.addEventListener("DOMContentLoaded", function () {
     // Show different warning for another page
     if (currentPage === "movie.html" && !localStorage.getItem("spoilerWarningAccepted")) {
         alert("⚠ WARNING: This page page contains spoilers!!");
-        localStorage.setItem("spolierWarningAccepted", "true");
+        localStorage.setItem("spoilerWarningAccepted", "true");
     }
 
+   
 
-// Function to search through header elements
+
+    // Function to search through header elements
     function searchHeaders() {
         const searchInput = document.getElementById('search').value.toLowerCase();
         const headers = document.querySelectorAll('h1, h2, h3');
@@ -26,5 +27,5 @@ document.addEventListener("DOMContentLoaded", function () {
             header.closest('div').style.display = headerText.includes(searchInput) ? 'block' : 'none';
         });
     }
-
 });
+

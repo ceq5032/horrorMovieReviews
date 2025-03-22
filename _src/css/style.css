@@ -101,6 +101,7 @@ header#top p {
     height: auto;
 }
 
+
 ul.htop {
     list-style-type: none;
     margin: 0;
@@ -120,8 +121,14 @@ ul.htop {
 }
 
 
+
+
+ul.htop.active {
+    display: flex;
+}
+
 ul.htop li {
-    position: sticky;
+    position: relative;
     margin: 0 10px;
 }
 
@@ -334,7 +341,7 @@ ul a:hover {
 
 
 
-.footer {
+footer {
     position: fixed;
     margin-top: auto;
     bottom: 0;
@@ -385,13 +392,21 @@ footer .social-media img:hover {
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
+
 @media screen and (max-width: 768px) {
-    section {
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
+    .threads {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
     }
+
 }
+
+
+
+
+
 @keyframes grow {
     0% {
         width: 0;
