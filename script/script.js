@@ -18,11 +18,21 @@ document.addEventListener("DOMContentLoaded", function () {
         const menuToggle = document.querySelector(".menu-toggle");
         const menu = document.querySelector(".htop");
 
-        // Ensure the button toggles the menu visibility
+        if (!menuToggle) {
+            console.log("Menu toggle button not found");
+        }
+
+        if (!menu) {
+            console.log("Menu not found");
+        }
+
+       
         menuToggle.addEventListener("click", function () {
+            console.log("Hamburger button clicked");
             menu.classList.toggle("active");
         });
     });
+
 
     // Function to search through header elements
     function searchHeaders() {
