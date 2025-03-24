@@ -59,7 +59,7 @@ Nicolas Cage delivers a performance that is both terrifying and mesmerizing, emb
 While the film has been lauded for its mood and performances, some critics note that it doesn't quite reach the heights of classics like The Silence of the Lambs. Nonetheless, Longlegs stands out as a profoundly unsettling entry in the horror genre, offering a richly textured experience that will crawl and linger in your mind for days. 
 
 
-Final Verdict: Longlegs is a disturbing and atmospheric horror film that showcases standout performances, particularly from Cage and Monroe. Its blend of psychological and supernatural elements, coupled with a brooding aesthetic, makes it a memorable watch for horror enthusiasts.
+Final Verdict: Longlegs is a disturbing and atmospheric horror film that showcases standout performances, particularly from Cage and Monroe. Its blend of psychological and supernatural elements, coupled with a brooding aesthetic, makes it a memorable watch for most horror enthusiasts.
 
 </p>
 
