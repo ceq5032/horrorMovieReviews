@@ -337,8 +337,96 @@ ul a:hover {
     text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.87), 0 0 10px rgba(92, 6, 6, 0.71);
 }
 
+.timeline {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.87), 0 0 10px rgba(92, 6, 6, 0.71);
+    z-index: 1;
+}
+
+.event {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(172, 11, 35, 0.8);
+    color: #f1f1f1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
 
 
+.event:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(234, 39, 69, 0.8);
+    z-index: 4;
+
+}
+
+
+.event span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-50%);
+    background-color: rgba(139, 23, 23, 0.55);
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 4;
+
+}
+
+
+.event::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 5%;
+    width: 2px;
+    height: 100%;
+    background-color: rgb(74, 4, 4);
+
+}
+
+
+.popup {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgb(87, 4, 32);
+    padding: 20px 20px;
+    color: #f1f1f1;
+    font-size: 18px;
+    z-index: 9999999;
+    display: none;
+    text-align: left;
+
+}
+
+.popup img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    z-index: 9999999;
+}
+
+.event:hover .popup {
+    display: block;
+}
 
 
 footer {
