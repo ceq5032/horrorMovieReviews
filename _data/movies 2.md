@@ -1,0 +1,24 @@
+---
+title: Time Line of Horror Movies 
+layout: layouts/about.html
+permalink: timeline.html
+data: movies
+---
+
+<div class="timeline">
+    <h1>Horror Movie Timeline</h1>
+    <h2>UNDER CONSTRUCTION</h2>
+
+    {% for movie in data %}
+    <div class="event">
+        <p>{{ movie.title }}</p>
+        <span class="date">Year: {{ movie.year }}</span>
+        <div class="popup">
+            <img src="{{ movie.image_url }}" alt="{{ movie.title }}">
+            <p>{{ movie.title }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+
