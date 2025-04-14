@@ -185,6 +185,26 @@ Final Verdict: House on Haunted Hill is an entertaining, albeit flawed, horror f
 
 </p>
 
+<h2> MEGAN IS MISSING  (2011) </h2>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t0Mw3T0_Vys?si=Zw9NY60AiAG3iaxZ&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<h4> Rating: ★☆☆☆☆ (1/5) </h4>
+
+
+<p>
+MEGAN IS MISSING is a found-footage horror-thriller directed by Michael Goi. It follows the disappearance of 14-year-old Megan Stewart after she meets an online stranger, and the devastating consequences that follow for her best friend, Amy Herman. The film presents itself as a cautionary tale about the dangers of online predators, but does it succeed in delivering its message effectively—or does it rely too heavily on shock value?
+
+The movie starts as a teen drama, focusing on Megan and Amy’s friendship. Megan, more rebellious and outgoing, begins chatting with a boy named "Josh" online, leading to her disappearance. Amy then embarks on a desperate search for her, unaware that she’s also in danger. While the film aims to highlight the real-life risks of online predators, its execution feels unbalanced—spending too much time on mundane teenage interactions before suddenly shifting into extreme horror.
+
+The performances are inconsistent. Amber Perkins (Amy) delivers an emotional and believable performance in the film’s final moments, but much of the earlier dialogue feels forced and unnatural. The interactions between the teens often come across as awkwardly scripted, making it difficult to connect with the characters. It was hard to watch.
+
+The movie doesn’t rely on traditional horror techniques like jump scares. Instead, it uses psychological horror and extreme realism to terrify viewers. The infamous last 22 minutes are disturbingly graphic, featuring hostage footage, torture, and an unsettling drawn-out ending. While undeniably horrifying, these scenes have been criticized as exploitative rather than necessary.
+
+Megan Is Missing gained viral attention in 2020, shocking viewers who were unprepared for its brutal imagery. Some praise it as an important warning about online safety, while others argue it’s more trauma-inducing than thought-provoking. Its low-budget production and unconvincing dialogue further divide audiences.
+
+Final Verdict: While Megan Is Missing delivers a disturbing and unforgettable experience in the last 22 minutes, it ultimately relies too much on shock value rather than meaningful storytelling. The slow-paced first half feels disconnected from the horrifying second half, and the execution lacks the finesse needed to truly make its message impactful.
+
+</p>
 
 </div>

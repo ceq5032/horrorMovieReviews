@@ -25,6 +25,7 @@ body {
     padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
+    z-index: 0;
 }
 
 .container {
@@ -53,6 +54,7 @@ header#top {
     width: 100%;
     height: 350px;
     overflow: hidden;
+    z-index:10;
 }
 
 .header-text {
@@ -348,6 +350,16 @@ ul a:hover {
     z-index: 1;
 }
 
+.timeline p {
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: left;
+    color: white;
+
+}
+
 .event {
     position: relative;
     margin-top: 30px;
@@ -357,17 +369,13 @@ ul a:hover {
     box-shadow: 0 4px 10px rgba(172, 11, 35, 0.8);
     color: #f1f1f1;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-
 }
-
 
 .event:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 15px rgba(234, 39, 69, 0.8);
-    z-index: 4;
-
+    z-index: 15;
 }
-
 
 .event span {
     position: absolute;
@@ -381,9 +389,7 @@ ul a:hover {
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 4;
-
 }
-
 
 .event::before {
     content: "";
@@ -393,26 +399,23 @@ ul a:hover {
     width: 2px;
     height: 100%;
     background-color: rgb(74, 4, 4);
-
 }
-
 
 .popup {
     position: fixed;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 450px;
     background-color: black;
     border-radius: 8px;
     box-shadow: 0 6px 15px rgb(87, 4, 32);
-    padding: 20px 20px;
+    padding: 20px;
     color: #f1f1f1;
     font-size: 18px;
     z-index: 9999999;
     display: none;
     text-align: left;
-
 }
 
 .popup img {
@@ -423,9 +426,18 @@ ul a:hover {
     z-index: 9999999;
 }
 
+.event img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
 .event:hover .popup {
     display: block;
 }
+
 
 
 footer {
@@ -485,13 +497,28 @@ footer .social-media img:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-
+        width: 100%;
+        padding: 10px;
     }
 
+    .popup img {
+        width: 90%;
+        height: auto;
+    }
+
+    .timeline {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .event {
+        margin-bottom: 30px;
+    }
+
+    .popup {
+        width: 90%;
+    }
 }
-
-
-
 
 
 @keyframes grow {
@@ -505,8 +532,14 @@ footer .social-media img:hover {
 
 
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px; 
+    }
 }
+
 
 
