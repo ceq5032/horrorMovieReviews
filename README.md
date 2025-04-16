@@ -8,9 +8,12 @@ As the site evolves, I plan to introduce a community-driven section where fellow
 
 March 21, 2025 Update
 
-I was able to do a lot of research today and I found a free host through infinityfree.com 
+I was able to do a lot of research today, and I found a free host through infinityfree.com 
 
 Here is the domain name: horrormoviereview.kesug.com
 There are a lot of forms as well that walk you through setting up github to push to the websites. 
 
 It can take up to 72 hours to become available to the public. 
+
+April 16, 2025
+I have chosen not to launch the website just yet since I am obtaining permission to pull information from specific websites. For the time being, I may use the information because it is being used for academic purposes. Everything will be in order when I launch the website.
