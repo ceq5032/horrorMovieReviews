@@ -8,7 +8,7 @@ permalink: movie.html
 
     <label for="search"> Search for a Movie </label>
 
-    <input type="text" class="search-box" id="search" placeholder="Search For a Movie" onkeyup="searchHeaders()">
+    <input type="text" class="search-box" id="search" placeholder="Search For a Movie" onkeyup="searchHeaders()"/>
 
 
 </div>
