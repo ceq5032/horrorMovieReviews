@@ -6,11 +6,11 @@ Welcome to my website, where I share my passion for all things horror! This plat
 
 As the site evolves, I plan to introduce a community-driven section where fellow fans can contribute their thoughts, share reviews, and engage in lively discussions about the films that frighten, thrill, and captivate us all. Whether you're here to read my thoughts or connect with others who share your love for horror, I hope this site becomes your go-to spot for everything terrifyingly cinematic!
 
-March 21, 2025 Update
+April 26 2025
 
-I was able to do a lot of research today and I found a free host through infinityfree.com 
-
-Here is the domain name: horrormoviereview.kesug.com
-There are a lot of forms as well that walk you through setting up github to push to the websites. 
-
-It can take up to 72 hours to become available to the public. 
+I've decided to adjust my approach to this website for the time being. 
+My goal is to have it fully functioning, but since this is my senior project,
+I’ve decided to hold off on launching it until I’ve secured the necessary 
+permissions. Since I’m pulling information from other websites using 
+BeautifulSoup4, I need to ensure I have the proper authorization before 
+making the website publicly available.
