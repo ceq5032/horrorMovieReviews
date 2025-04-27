@@ -1,4 +1,4 @@
-:root {
+root {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,14 +19,13 @@ body {
     -moz-osx-font-smoothing: grayscale;
     margin: 0;
     font-size: calc(10px + 2vmin);
+
     text-align: left;
     min-height: 100vh;
     padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
     z-index: 0;
-    justify-content: center; /* Added to center content vertically */
-    align-items: center; /* Added to center content horizontally */
 }
 
 .container {
@@ -42,15 +41,12 @@ main {
     align-items: center;
 }
 
+
+
 .main-content-wrapper {
     margin: auto;
     width: 60%;
     padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center content horizontally */
-    justify-content: center; /* Center content vertically */
-    text-align: center;
 }
 
 header#top {
@@ -58,7 +54,7 @@ header#top {
     width: 100%;
     height: 350px;
     overflow: hidden;
-    z-index: 10;
+    z-index:10;
 }
 
 .header-text {
@@ -107,6 +103,7 @@ header#top p {
     height: auto;
 }
 
+
 ul.htop {
     list-style-type: none;
     margin: 0;
@@ -124,6 +121,9 @@ ul.htop {
     top: 0;
     width: 100%;
 }
+
+
+
 
 ul.htop.active {
     display: flex;
@@ -150,6 +150,7 @@ ul.htop li a:hover {
     color: #fff;
 }
 
+
 button {
     background-color: #5c0606;
     border: none;
@@ -161,28 +162,36 @@ button {
     font-size: 15px;
     border-radius: 12px;
     cursor: pointer;
+
+
 }
+
 
 .search-box {
     padding: 10px 20px 10px;
     font-size: 16px;
+
     width: 100%;
     max-width: 200px;
     border: 1px solid #ccc;
     border-radius: 10px;
 }
 
-.search-box h1, h2, h3 {
+
+.search-box h1, h2, h3{
     font-size: 3rem;
     text-decoration: underline;
     color: black;
     text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.87), 0 0 10px rgba(92, 6, 6, 0.71);
 }
 
+
 .movie-reviews {
     margin-left: 60px;
     width: 100%;
+
 }
+
 
 iframe {
     display: block;
@@ -192,26 +201,13 @@ iframe {
     height: 400px;
 }
 
-h4 {
+h4{
     justify-content: center;
     text-align: center;
     color: white;
 }
 
-.containerM p {
-    justify-content: center;
-    margin: auto;
-    width: 80%;
-    padding: 10px;
-    text-align: left;
-    color: white;
-}
-
-.containerR h2, h3, h4 {
-    text-align: center;
-}
-
-.containerR p {
+.containerM p{
     justify-content: center;
     margin: auto;
     width: 80%;
@@ -220,8 +216,23 @@ h4 {
     color: white;
 }
 
-.containerM h2 {
+.containerR  h2,h3, h4{
     text-align: center;
+
+}
+
+.containerR p{
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+
+.containerM h2{
+    text-align: center;
+
 }
 
 .forum-container {
@@ -233,14 +244,13 @@ h4 {
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
 }
-
-.forum-container h1 {
+.forum-container h1{
     color: white;
     text-shadow: 1px 1px 5px rgba(92, 6, 6, 0.73), 0 0 10px rgba(92, 6, 6, 0.71);
     text-align: center;
 }
 
-nav {
+nav  {
     margin: 0 10px;
     justify-content: center;
     text-align: center;
@@ -252,7 +262,9 @@ nav {
 
 nav a:hover {
     color: #610d0d;
+
 }
+
 
 .forum-categories ul {
     justify-content: space-around;
@@ -262,29 +274,36 @@ nav a:hover {
 
 ul a:hover {
     color: #610d0d;
+
 }
 
 .forum-categories h2 {
     color: rgba(0, 0, 0, 0.5);
     text-shadow: 1px 1px 5px rgb(255, 255, 255), 0 0 10px rgba(92, 6, 6, 0.71);
     text-align: center;
+
+
 }
 
 .forum-categories li {
     margin: 5px 0;
 }
 
+
 .threads {
     margin-top: 20px;
     background-color: rgba(92, 6, 6, 0.1);
     padding: 15px;
     border-radius: 8px;
+
+
 }
 
 .threads {
     color: rgba(0, 0, 0, 0.5);
     text-shadow: 1px 1px 5px rgb(255, 255, 255), 0 0 10px rgba(92, 6, 6, 0.71);
     text-align: center;
+
 }
 
 .thread {
@@ -294,15 +313,24 @@ ul a:hover {
     border-radius: 8px;
 }
 
-.thread h2 {
+.thread h2{
+
     color: rgba(0, 0, 0, 0.5);
     text-shadow: 1px 1px 5px rgb(255, 255, 255), 0 0 10px rgba(92, 6, 6, 0.71);
     text-align: center;
+
 }
+
 
 .thread h3 {
     margin: 0;
     color: #efe5e5;
+
+
+    nav a:hover {
+        color: #610d0d;
+
+    }
 }
 
 .thread p {
@@ -329,6 +357,7 @@ ul a:hover {
     padding: 10px;
     text-align: left;
     color: white;
+
 }
 
 .event {
@@ -409,6 +438,8 @@ ul a:hover {
     display: block;
 }
 
+
+
 footer {
     position: fixed;
     margin-top: auto;
@@ -460,6 +491,7 @@ footer .social-media img:hover {
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
+
 @media screen and (max-width: 768px) {
     .threads {
         display: flex;
@@ -488,6 +520,7 @@ footer .social-media img:hover {
     }
 }
 
+
 @keyframes grow {
     0% {
         width: 0;
@@ -497,13 +530,14 @@ footer .social-media img:hover {
     }
 }
 
+
 @media screen and (max-height: 450px) {
     .sidenav {
         padding-top: 15px;
     }
 
     .sidenav a {
-        font-size: 18px;
+        font-size: 18px; 
     }
 }
 
