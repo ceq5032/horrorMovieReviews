@@ -57,7 +57,8 @@ permalink: movie.html
                         It's in my top ten favorite childhood movies.
 </p>
 
-
+</div>
+<div class="containerM">
 <h2> Longlegs (2024) </h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OG7wOTE8NhE?si=xHEK9mgxVYjmKrhY&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -93,7 +94,8 @@ permalink: movie.html
                         supernatural elements, combined with its brooding aesthetic, makes it a memorable
                         experience for horror fans.
 </p>
-
+</div>
+<div class="containerM">
 
     <h2> The Shining (1980) </h2>
 
@@ -142,6 +144,8 @@ Stanley Kubrick’s The Shining stands as a true masterpiece of psychological ho
                         eerie performances, and masterful storytelling, it remains one of the greatest and most
                         unsettling horror films ever made.
 </p>
+</div>
+<div class="containerM">
 
     <h2> Midsommar (2019) </h2>
 
@@ -193,6 +197,8 @@ Stanley Kubrick’s The Shining stands as a true masterpiece of psychological ho
                         as a horror masterpiece.
 
 </p>
+</div>
+<div class="containerM">
 
     <h2> The Black Phone </h2>
 
@@ -236,7 +242,8 @@ Scott Derrickson’s *The Black Phone* is a thrilling blend of supernatural horr
                         and strong character development make it a memorable and impactful experience.
 
 </p>
-
+</div>
+<div class="containerM">
 <h2> Alien: Romulus (2024) </h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OzY2r2JXsDM?si=L3a__D2MhDHxZ-VV&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -274,7 +281,8 @@ Scott Derrickson’s *The Black Phone* is a thrilling blend of supernatural horr
                         classic terror ensures the Alien legacy continues, though it doesn’t break new ground.
 
 </p>
-
+</div>
+<div class="containerM">
 <h2> House on Haunted Hill (1999) </h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nfhy9nWG6Gw?si=ZZp6JlfhKEEulGzU&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -312,7 +320,8 @@ The 1999 remake of House on Haunted Hill is a campy, visually striking horror fi
                         ‘90s horror. If you enjoy campy, atmospheric ghost stories with a dash of gore,
                         it’s worth a watch—just don’t expect a masterpiece of storytelling.
 </p>
-
+</div>
+<div class="containerM">
 <h2> MEGAN IS MISSING  (2011) </h2>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/t0Mw3T0_Vys?si=Zw9NY60AiAG3iaxZ&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -354,7 +363,8 @@ The 1999 remake of House on Haunted Hill is a campy, visually striking horror fi
                         lacks the finesse necessary to truly make its message impactful. I would never watch it again,
                         and I only stuck through it for the purpose of this review.
 </p>
-
+</div>
+<div class="containerM">
 <h2> World War Z (2013) </h2>
 
   <iframe width="560" height="315"
@@ -397,7 +407,8 @@ World War Z is a high-octane, globe-trotting zombie thriller that delivers relen
                         Brad Pitt, it’s a thrilling ride from start to finish. While it doesn’t dig too deep
                         thematically, it more than delivers as a smart, stylish, and suspenseful blockbuster.
 </p>
-
+</div>
+<div class="containerM">
 <h2> BARBARIAN (2022) </h2>
 
     <iframe width="560" height="315"
@@ -440,6 +451,8 @@ World War Z is a high-octane, globe-trotting zombie thriller that delivers relen
                         gleefully shreds them. With sharp direction, standout performances, and scenes that will haunt
                         your memory (especially that bottle scene), it earns its place as a modern horror standout.
 </p>
+</div>
+<div class="containerM">
 
 <h2> A Nightmare on Elm Street 3: Dream Warriors (1987) </h2>
 
@@ -485,7 +498,8 @@ World War Z is a high-octane, globe-trotting zombie thriller that delivers relen
                         film’s strength lies in its mix of terror, creativity, and heart. A must-watch for any horror
                         fan. I am a true Freddy fan so this review is absolutely bias.
 </p>
-
+</div>
+<div class="containerM">
 <h2> The Cabin in the Woods (2011) </h2>
 
      <iframe width="560" height="315"
