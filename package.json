@@ -1,18 +1,10 @@
 {
-  "name": "horrorMovieBlog",
+  "name": "horrorMovieReviews",
   "version": "1.0.0",
-  "description": "Interactive Blog Website  ",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy",
-    "deploy": "gh-pages -d _site"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "/horrorMovieReviews",
-  "dependencies": {
-    "@11ty/eleventy": "^3.0.0"
-  },
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
-  }
+  "private": true
 }
