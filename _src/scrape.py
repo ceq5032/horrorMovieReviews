@@ -33,5 +33,5 @@ with open(output_file, mode="w", newline="", encoding="utf-8") as csvfile:
 
         writer.writerow([title, year, image_url])
 
-print("✅ horror.csv has been created!")
+print(" horror.csv has been created!")
 

@@ -39,6 +39,16 @@ window.addEventListener("DOMContentLoaded", function () {
                 input.addEventListener('keyup', searchHeaders, false)
         }
 
+<<<<<<< Updated upstream
+=======
+        // Call searchHeaders function on page load
+        searchHeaders();
+
+        // Fix for the input event listener
+        var input = document.getElementById("search");
+        input.addEventListener('keyup', searchHeaders, false);
+    }
+>>>>>>> Stashed changes
 });
 
 
