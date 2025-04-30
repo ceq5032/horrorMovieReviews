@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # IMDb list URL
-url = "https://www.imdb.com/list/ls003174642/"
+url = "https://www.imdb.com/list/ls056154538/"
 
 # Add headers to simulate a browser request
 headers = {
@@ -75,7 +75,7 @@ for movie in movie_data:
 
 import json
 
-with open('movies.json', 'w') as f:
+with open('moviesUp.json', 'w') as f:
     json.dump(movie_data, f, indent=2)
 
 print("Scraping complete.")

@@ -3,22 +3,20 @@ title: Latest Horror Movie Rumors
 layout: layouts/about.html
 permalink: latest.html
 ---
-<div class="timeline">
-  <script>
-    const moviesData = {{ moviesUP | jsonify }};
-    console.log(moviesData);
-  </script>
-  <h1> Rotten Tomatoes Upcoming Movies </h1>
-  <p> Here is a list of Upcoming Horror Movies! </p>
+<script>
+  const moviesData = {{ moviesUP | json }};
+  console.log(moviesData);
+</script>
 
-  {% for movie in moviesUP %}
-  <div class="event">
+<h3><a href="https://www.imdb.com/list/ls056154538/">IMDb </a>Upcoming Horror Movies</h3>
+
+{% for movie in moviesUP %}
+  <div class="containerL">
     <span>{{ loop.index }}</span> 
-    <h3>{{ movie.title }} ({{ movie.critic_score }})</h3>
-    <div class="popup">
-      <img src="{{ movie.image_url }}" alt="Poster for {{ movie.title }}">
-      <p>{{ movie.title }}</p>
-    </div>
+    <h3>{{ movie.title }} ({{ movie.year }})</h3>
+    <img src="{{ movie.img_url }}" alt="Poster for {{ movie.title }}">
+    <h4>Rating: {{ movie.rating }}</h4>
   </div>
-  {% endfor %}
-</div>
+{% endfor %}
+
+

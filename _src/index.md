@@ -7,17 +7,12 @@ permalink: index.html
 <main> 
 <div class="main-content-wrapper">
 
-
-
-
-
  <h2> Welcome to My Horror Film Reviews </h2>
 
-<p> This website is currently under construction. </p>
+
 
       <p>Your ultimate source for horror film reviews, from the classics to the latest spine-chilling releases.</p>
 
-   
 
 <img src="images/clip1.jpg" alt="movie reel" style="width:500px; height:300px; display: block; margin-left: auto; border-radius: 15px">
 
