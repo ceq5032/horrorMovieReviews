@@ -49,6 +49,10 @@ main {
     padding: 10px;
 }
 
+.main-content-wrapper svg{
+
+}
+
 header#top {
     position: sticky;
     width: 100%;
@@ -235,6 +239,50 @@ h4{
 
 }
 
+.containerL {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.containerL h3,
+.containerL h4 {
+  margin: 10px 0;
+}
+
+.containerL img {
+  display: block;
+  margin: 0 auto 15px auto;
+  width: 300px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.containerL span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.containerL p {
+  text-align: left;
+  margin: 5px auto 10px auto;
+  max-width: 800px;
+}
+
+.containerL a {
+  text-decoration: none;
+  color: #b30000;
+}
+
+.containerL a:hover {
+  text-decoration: underline;
+}
+
+
+
 .forum-container {
     width: 80%;
     justify-content: center;
@@ -363,7 +411,7 @@ ul a:hover {
 .event {
     position: relative;
     margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(172, 11, 35, 0.8);
@@ -413,6 +461,7 @@ ul a:hover {
     padding: 20px;
     color: #f1f1f1;
     font-size: 18px;
+    margin-bottom: 45px;
     z-index: 9999999;
     display: none;
     text-align: left;
