@@ -391,7 +391,7 @@ ul a:hover {
     position: relative;
     width: 80%;
     margin: 0 auto;
-    color: #ffffff;
+    color: #0a0a0a;
     border-radius: 10px;
     text-align: center;
     text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.87), 0 0 10px rgba(92, 6, 6, 0.71);
@@ -403,8 +403,8 @@ ul a:hover {
     margin: auto;
     width: 80%;
     padding: 10px;
-    text-align: left;
-    color: white;
+    text-align: center;
+    color: rgb(255, 255, 255);
 
 }
 
@@ -455,7 +455,7 @@ ul a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 450px;
-    background-color: rgba(0, 0, 0, 0.57);
+    background-color: rgba(0, 0, 0, 0.91);
     border-radius: 8px;
     box-shadow: 0 6px 15px rgb(87, 4, 32);
     padding: 20px;
