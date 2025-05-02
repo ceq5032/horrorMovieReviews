@@ -51,6 +51,12 @@ window.addEventListener("DOMContentLoaded", function () {
 >>>>>>> Stashed changes
 });
 
-
-
+// .eleventy.js config
+module.exports = function(eleventyConfig) {
+  return {
+    markdownTemplateEngine: "liquid",
+    htmlTemplateEngine: "liquid",
+    dataTemplateEngine: "liquid",
+  };
+};
 
