@@ -39,36 +39,18 @@ for movie in movies:
     img_tag = movie.find('img', class_='ipc-image')
     img_url = img_tag['src'] if img_tag else "N/A"
 
-    # Get plot (from within each movie block)
-    plot_tag = movie.select_one('div.ipc-html-content-inner-div')
-    plot = plot_tag.get_text(strip=True) if plot_tag else "No plot available"
-
-    # Find the director
-    director_span = soup.select_one('span.sc-7746c29e-3.hBzOQe:contains("Director") + span.sc-7746c29e-2.fQnBdG')
-    director = director_span.get_text(strip=True) if director_span else "No director available"
-
-    # Find the stars
-    stars_spans = soup.select('span.sc-7746c29e-3.hBzOQe:contains("Stars") + span.sc-7746c29e-2.fQnBdG a')
-    stars = [star.get_text(strip=True) for star in stars_spans] if stars_spans else ["No stars available"]
-
     # Store movie information in a dictionary
     movie_info = {
         'title': title,
         'year': year,
         'rating': rating,
         'img_url': img_url,
-        'plot': plot,
-        'director': director,
-        'stars': stars
     }
     movie_data.append(movie_info)
 
 
 for movie in movie_data:
     print(f"{movie['title']} ({movie['year']}) - Rating: {movie['rating']}")
-    print(f"Plot: {movie['plot']}")
-    print(f"Director: {movie['director']}")
-    print(f"Stars: {', '.join(movie['stars'])}")
     print(f"Poster URL: {movie['img_url']}")
     print()
 

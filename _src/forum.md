@@ -14,6 +14,7 @@ permalink: forum.html
                 <a href="login.php">Login</a> | <a href="register.php">Register</a>
             </nav>
       
+  <div class="separator"></div>
 
         <div class="forum-categories">
             <h2>Categories</h2>
@@ -23,6 +24,8 @@ permalink: forum.html
                 <li><a href="category.php?id=3">Latest News</a></li>
             </ul>
         </div>
+
+  <div class="separator"></div>
 
         <div class="threads">
             <h2>Threads</h2>

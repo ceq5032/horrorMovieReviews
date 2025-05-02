@@ -10,6 +10,7 @@ permalink: timeline.html
     <div class="event">
       <span>{{ loop.index }}</span> 
       <h3>{{ movie.title }} ({{ movie.year }})</h3>
+      <p>Rating: {{ movie.rating }}</p>
       <div class="popup">
         <img src="{{ movie.img_url }}" alt="Poster for {{ movie.title }}">
         <p>{{ movie.title }}</p>
@@ -17,3 +18,4 @@ permalink: timeline.html
     </div>
   {% endfor %}
 </div>
+
